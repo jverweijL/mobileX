@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    xmlns:liferay="http://schemas.android.com/apk/res-auto">
+
+    <com.liferay.mobile.screens.webcontent.display.WebContentDisplayScreenlet
+        android:id="@+id/webcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        liferay:articleId="36165"
+        liferay:layoutId="@layout/webcontentdisplay_default"/>
+</FrameLayout>
